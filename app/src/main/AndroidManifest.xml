@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.bits20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="" />
+        <activity android:name=".IntroductionToNumberSystemActivity" />
+        <activity android:name=".NumberConversionTutorialActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ConversionTabActivity" />
+        <activity android:name=".WhatAreNumbersActivity" />
+        <activity android:name=".DecimalActivity" />
+        <activity android:name=".BinaryActivity" />
+        <activity android:name=".OctalActivity" />
+        <activity android:name=".HexadecimalActivity" />
+        <activity android:name=".DecimalToBinaryActivity" />
+        <activity android:name=".BinaryToDecimalActivity" />
+        <activity android:name=".DecimalToOctalActivity" />
+        <activity android:name=".OctalToDecimalActivity" />
+        <activity android:name=".DecimalToHexadecimalActivity" />
+        <activity android:name=".HexadecimalToDecimalActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ComplementsTutorialActivity" />
+        <activity android:name=".BinaryCalculatorActivity"></activity>
+    </application>
+
+</manifest>

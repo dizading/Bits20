@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/eight_dips"
+    style="@style/mm"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:padding="@dimen/eight_dips"
+        android:src="@drawable/male"
+        android:id="@+id/gender_image_view"
+        android:layout_height="@dimen/one_twenty_dips"
+        android:layout_width="@dimen/one_twenty_dips"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/drawer_header_text_view"
+        android:layout_marginLeft="@dimen/four_dips"
+        android:layout_toRightOf="@id/gender_image_view"
+        android:paddingTop="@dimen/thirty_dips"
+        android:textSize="@dimen/twenty_five_sp"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/one_twenty_dips"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/main_content"
+        android:fontFamily="@font/coiny"
+        android:layout_below="@id/gender_image_view"
+        android:layout_marginLeft="@dimen/eight_dips"
+        android:text="@string/main_contents"
+        android:textSize="@dimen/eighteen_sp"
+        android:gravity="center"
+        style="@style/ww"/>
+
+    <View
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/four_dips"
+        android:layout_below="@id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_dips"/>
+
+</RelativeLayout>

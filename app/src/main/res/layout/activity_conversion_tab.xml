@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conversion_tab_activity_drawer_layout"
+    style="@style/mm"
+    tools:context="com.example.android.bits20.ConversionTabActivity">
+
+    <ScrollView
+        style="@style/mm"
+        android:background="@drawable/background_gradient">
+
+        <LinearLayout
+            android:id="@+id/third_activity_parent_content"
+            style="@style/mmv">
+
+            <android.support.v7.widget.Toolbar
+                app:titleTextColor="@color/white"
+                android:id="@+id/conversion_tab_activity_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/colorPrimary"
+                android:theme="@style/AppbarTheme"/>
+
+            <TextView
+                style="@style/mw"
+                android:text="Conversion Tab"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/conversion_tab_activity_navigation_view"
+        style="@style/wm"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/white"
+        android:background="@drawable/background_gradient"
+        app:headerLayout="@layout/third_activity_drawer_header"
+        app:menu="@menu/drawer_menu" />
+
+
+</android.support.v4.widget.DrawerLayout>

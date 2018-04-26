@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mm"
+    android:background="@drawable/background_gradient"
+    tools:context="com.example.android.bits20.MainActivity">
+
+    <TextView
+        android:layout_marginTop="@dimen/hundred_dips"
+        android:id="@+id/title"
+        style="@style/mw"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:padding="@dimen/twenty_dips"
+        android:text="@string/bits"
+        android:textSize="@dimen/one_twenty_dips" />
+
+    <TextView
+        android:id="@+id/descript"
+        android:fontFamily="@font/coiny"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/title"
+        android:textSize="@dimen/twenty_sp"
+        style="@style/mw"
+        android:text="@string/the_learner_s_companion"/>
+
+    <Button
+        android:layout_below="@id/descript"
+        android:layout_alignParentBottom="true"
+        android:onClick="toSecondActivity"
+        android:id="@+id/main_button_one"
+        android:textSize="@dimen/sixteen_sp"
+        style="@style/mw"
+        android:text="to second activity"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_decimal_to_binary_acitivity"
+            android:title="Decimal to binary"/>
+        <item android:id="@+id/menu_binary_to_decimal_acitivity"
+            android:title="Binary to decimal"/>
+
+        <item android:id="@+id/menu_decimal_to_octal_acitivity"
+            android:title="Decimal to octal"/>
+        <item android:id="@+id/menu_octal_to_decimal_acitivity"
+            android:title="Octal to decimal"/>
+
+        <item android:id="@+id/menu_decimal_to_hexadecimal_acitivity"
+            android:title="Decimal to hexadecimal"/>
+        <item android:id="@+id/menu_hexadecimal_to_decimal_acitivity"
+            android:title="Hexadecimal to decimal"/>
+    </group>
+
+</menu>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bits 2.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bits">Bits</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter_your_name">Username</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="take_me_to_learner_s_disney">Take me to learner\'s disney</string>
+    <string name="caution_image">caution image</string>
+    <string name="all_reqd">All fields are required!</string>
+    <string name="name_reqd">All fields are required! Please enter your name.</string>
+    <string name="email_reqd">All fields are required! Please enter your email.</string>
+    <string name="name_email_reqd">All fields are required! Please enter your name and email.</string>
+    <string name="sex_reqd">All fields are required! Please select your gender.</string>
+    <string name="main_contents">Main contents</string>
+    <string name="what_are_numbers">What are numbers?</string>
+    <string name="decimal_number_system">Decimal Number system</string>
+    <string name="binary_number_system">Binary Number system</string>
+    <string name="octal_number_system">octal number system</string>
+    <string name="hexadecimal_number_system">Hexadecimal number system</string>
+    <string name="wonder">Wondering what those random numbers mean? You\'re on the right place. Huddle up for the amazing journey up ahead!</string>
+    <string name="_1011100011">1011100011</string>
+    <string name="number_system">Number System</string>
+    <string name="conversion_tutorial">Conversion Tutorial</string>
+    <string name="complements_tutorial">Complements Tutorial</string>
+    <string name="test_your_knowledge">Test your knowledge</string>
+    <string name="conversion_tab">Conversion Tab</string>
+    <string name="binary_calculator">Binary calculator</string>
+    <string name="binary_to_decimal">Binary to decimal</string>
+    <string name="the_learner_s_companion">The learner\'s companion</string>
+
+    <string-array name="tab_title">
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>

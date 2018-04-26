@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conversion_tutorial_activity_drawer_layout"
+    style="@style/mm"
+    tools:context="com.example.android.bits20.NumberConversionTutorialActivity">
+
+
+    <ScrollView
+        style="@style/mm"
+        android:background="@drawable/background_gradient">
+
+        <LinearLayout style="@style/mmv">
+
+            <android.support.v7.widget.Toolbar
+                app:titleTextColor="@color/white"
+                android:id="@+id/conversion_tutorial_activity_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/colorPrimary"
+                android:theme="@style/AppbarTheme"/>
+
+            <Button
+                android:id="@+id/first_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="Decimal to binary"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <Button
+                android:id="@+id/second_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="binary to decimal"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <Button
+                android:id="@+id/third_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="Decimal to octal"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <Button
+                android:id="@+id/fourth_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="octal to decimal"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <Button
+                android:id="@+id/fifth_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="decimal to Hexadecimal"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <Button
+                android:id="@+id/sixth_textview"
+                style="@style/mw"
+                android:onClick="onTextViewClickedConversion"
+                android:text="Hexadecimal to decimal"
+                android:textSize="@dimen/eighteen_sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        app:itemTextColor="@color/white"
+        android:background="@drawable/background_gradient"
+        android:id="@+id/conversion_tutorial_activity_navigation_view"
+        style="@style/wm"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/third_activity_drawer_header"
+        app:menu="@menu/drawer_menu" />
+
+</android.support.v4.widget.DrawerLayout>

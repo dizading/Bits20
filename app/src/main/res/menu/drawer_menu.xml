@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_introduction_to_number_system"
+            android:title="Introduction to Number system"/>
+        <item
+            android:id="@+id/menu_conversion_tutorial"
+            android:title="Conversion Tutorial"/>
+        <item
+            android:id="@+id/menu_quiz"
+            android:title="@string/test_your_knowledge"/>
+        <item
+            android:id="@+id/menu_conversion_tab"
+            android:title="Conversion Tab"/>
+    </group>
+
+</menu>
